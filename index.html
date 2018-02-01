@@ -9457,7 +9457,7 @@
 							var t = this.props.formSubmitHost;
 							if (!t) return !1;
 							var n = new XMLHttpRequest;
-							return n.open("POST", t + "/v3/messages"), n.setRequestHeader("Content-Type",
+							return n.open("POST", t), n.setRequestHeader("Content-Type",
 								"application/json; charset=UTF-8"), n.onreadystatechange = this.handleSubmitResponse, n.send(JSON.stringify(
 								e)), !0
 						}
@@ -10398,7 +10398,7 @@
 				"formSubmitHost": "https://mythinktools.com/contact-mail",
 				"showMap": false,
 				"domainName": "nagashayan.com",
-				"formSuccessMessage": "Thank you for your inquiry! We will get back to you within 48 hours.",
+				"formSuccessMessage": "Thank you for your inquiry! I will get back to you within 48 hours.",
 				"renderMode": "PUBLISH",
 				"formEnabled": true,
 				"websiteId": "56edafd2-5091-48bb-921e-c6aaa2ca99f5",
