@@ -2832,7 +2832,7 @@
 											<span data-reactroot="" data-ux="Element" class="x-el x-el-span px_-letter-spacing-0p02em px_-text-transform-uppercase px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux">
 												<div data-ux="Block" class="x-el x-el-div px_-letter-spacing-0p02em px_-text-transform-uppercase px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux">
 													<h4 data-ux="Heading" data-aid="CONTACT_FORM_TITLE_REND" data-route="contactFormFieldset/formTitle" class="x-el x-el-h4 px_-letter-spacing-normal px_-text-transform-none px_-overflow-wrap-break-word px_-word-wrap-break-word px_-word-break-break-word px_-fs-23 px_-c-rgb21__21__21 px_-fw-400 px_-lh-1p25 px_-ml-0 px_-mr-0 px_-mt-0 px_-mb-20px px_-ff-Share__sans-serif _xs-onlypx_-text-align-center _mdpx_-fs-25 _lgpx_-fs-25 x-d-ux x-d-aid x-d-route">Get in Touch!</h4>
-													<form method="POST" action="/contact-mail/" data-ux="Form" data-field-group="Contact Form" class="x-el x-el-form px_-letter-spacing-0p02em px_-text-transform-uppercase px_-mb-0 px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux x-d-field-group x-d-route">
+													<form data-ux="Form" data-field-group="Contact Form" class="x-el x-el-form px_-letter-spacing-0p02em px_-text-transform-uppercase px_-mb-0 px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux x-d-field-group x-d-route">
 														<div data-ux="Block" class="x-el x-el-div px_-letter-spacing-0p02em px_-text-transform-uppercase px_-pb-20px px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux">
 															<div data-ux="Block" class="x-el x-el-div px_-letter-spacing-0p02em px_-text-transform-uppercase px_-ff-_Squada_One___sans-serif px_-fs-16 _mdpx_-fs-16 _lgpx_-fs-16 x-d-ux">
 																<input type="text" data-ux="Input" placeholder="Name" data-aid="Name" value="" class="x-el x-el-input px_-letter-spacing-normal px_-text-transform-none px_-bc-rgb255__255__255 px_-border-color-rgb218__218__218 px_-c-rgb71__71__71 px_-fs-14 px_-fw-400 px_-border-width-1px px_-w-100P px_-ff-Share__sans-serif px_-border-radius-4px px_-pt-10px px_-pb-10px px_-pl-10px px_-pr-10px px_-border-style-solid px___placeholder-c-rgba71__71__71__0p7 px__focus-outline-none px___-webkit-input-placeholder-c-rgba71__71__71__0p7 px__-ms-input-placeholder-c-rgba71__71__71__0p7 _mdpx_-fs-15 _lgpx_-fs-16 x-d-ux x-d-aid">
@@ -9463,6 +9463,21 @@
 							n.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 							n.send(JSON.stringify(e));
 							
+							//added by me
+								"application/x-www-form-urlencoded"), n.onreadystatechange = this.handleSubmitResponse, n.send(JSON.stringify(
+							n.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+							n.send(JSON.stringify(e));
+							
+							//added by me
+								"application/x-www-form-urlencoded"), n.onreadystatechange = this.handleSubmitResponse, n.send(JSON.stringify(
+							n.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+							n.send(JSON.stringify(e));
+							
+							//added by me
+								"application/x-www-form-urlencoded"), n.onreadystatechange = this.handleSubmitResponse, n.send(JSON.stringify(
+							n.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+							n.send(JSON.stringify(e));
+							
 							return n.open("POST", t), n.setRequestHeader("Content-Type",
 								"application/x-www-form-urlencoded"), n.onreadystatechange = this.handleSubmitResponse, n.send(JSON.stringify(
 								e)), !0
@@ -10401,7 +10416,7 @@
 					"required": false
 				}],
 				"blankInfo": false,
-				"formSubmitHost": "http://localhost:8000/contact-mail/",
+				"formSubmitHost": "https://mythinktools.com/contact-mail/",
 				"showMap": false,
 				"domainName": "nagashayan.com",
 				"formSuccessMessage": "Thank you for your inquiry! I will get back to you within 48 hours.",
